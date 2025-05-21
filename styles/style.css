@@ -224,12 +224,9 @@ body{
     object-fit:contain;
 }
 .social-icons {
-    width: auto;
-    height: auto;
     display: flex;
     gap: 0.5rem;
     justify-content: center;
-    object-fit:contain;
 }
 .footer-bottom {
     margin-top: 1rem;
