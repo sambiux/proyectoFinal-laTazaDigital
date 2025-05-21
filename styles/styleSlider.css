@@ -43,29 +43,11 @@
 
 .slider .list p{
     position: relative;
-    right: 10%;
-    margin-right: 70px;
+    left: 10%;
+    margin-right: 140px;
     top: 5%;
     width: 350px;
     float: right;
-}
-
-.slider .list button{
-    position: relative;
-    left: 25%;
-    top: 65%;
-    font-family: "Paytone One", sans-serif;
-    height: 6vh;
-    width: 14vw;
-    background-color: white;
-    border-width: 2px;
-    border-style: solid;
-    border-color: black;
-    border-image: initial;
-    border-radius: 7px;
-    transition: 0.3s ease-in-out;
-    float: right;
-    cursor: pointer;
 }
 
 
@@ -76,6 +58,15 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+.slider .buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #000000;
+    border: 2px solid black;
+    cursor: pointer;
 }
 
 .slider .dots{
