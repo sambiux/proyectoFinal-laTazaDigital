@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+
+body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    gap: 1vh;
+    height: 80vh;
+    background-color: #F5CEDD;
+}
+
+.logoMarca{
+    grid-column: 1/ 5;
+
+}
+
+.logoMarca img{
+    width: 12vh;
+    height: 12vh;
+    border-radius: 12px;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease; 
+}
+
+.logoMarca img:hover{
+    box-shadow: 5px 5px 5px black;
+}
+
+.registroUsuario{
+    grid-column: 1/ 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+   
+
+}
+
+.registroUsuario button{
+    display: flex;
+    margin-top: 3vh;
+    background-color: white;
+    border-radius: 12px;
+    padding: 2vh;
+    margin-left: 5vh;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease; 
+    font-family: "Paytone One", sans-serif;
+
+
+}
+
+.registroUsuario button:hover{
+    box-shadow: 2px 2px 2px black;
+}
+
+.registroUsuario input{
+    border-radius: 7px;
+}
+
+.ingresoDatos{
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 30em;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+
+
+

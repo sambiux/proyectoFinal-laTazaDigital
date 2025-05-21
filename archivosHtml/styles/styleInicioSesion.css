@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    gap: 1vh;
+    height: 80vh;
+    background-color: #F5CEDD;
+    margin: 0;
+    padding: 0;
+}
+
+.logoMarca {
+    grid-column: 1 / 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 0;
+}
+
+.logoMarca img {
+    width: 12vh;
+    height: 12vh;
+    border-radius: 12px;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease; 
+}
+
+.logoMarca img:hover {
+    box-shadow: 5px 5px 5px black;
+}
+
+.registroUsuario2 {
+    grid-column: 1 / 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingresoDatos2 {
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 30em;
+    height: auto;
+    padding: 2em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.usuarioFormulario2 form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.usuarioFormulario2 p {
+    margin: 0.5em 0 0.2em 0;
+}
+
+.usuarioFormulario2 input {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+}
+
+.btnIniciarSesion2 {
+    margin-top: 1em;
+    background-color: white;
+    border-radius: 12px;
+    padding: 1em 2em;
+    border: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease; 
+    font-family: "Paytone One", sans-serif;
+    align-self: center;
+}
+
+.btnIniciarSesion2:hover {
+    box-shadow: 2px 2px 2px black;
+}
