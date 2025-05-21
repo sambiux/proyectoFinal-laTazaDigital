@@ -177,6 +177,7 @@ body{
 }
 
 .pieDePagina .logosRedes img{
+    
     width: 3vw;
     height: 3vh;
     object-fit: contain;
@@ -219,14 +220,16 @@ body{
 .logos img {
     width: auto;
     height:auto;
-    height: 50px;
     margin: 0.5rem;
     object-fit:contain;
 }
 .social-icons {
+    width: auto;
+    height: auto;
     display: flex;
     gap: 0.5rem;
     justify-content: center;
+    object-fit:contain;
 }
 .footer-bottom {
     margin-top: 1rem;
