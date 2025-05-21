@@ -217,8 +217,11 @@ body{
     font-weight: bold;
 }
 .logos img {
+    width: auto;
+    height:auto;
     height: 50px;
     margin: 0.5rem;
+    object-fit:contain;
 }
 .social-icons {
     display: flex;
