@@ -1,19 +1,19 @@
 .slider{
     position: relative;
     grid-column: 1/ 7;
-    grid-row: 2/ 4;
+    grid-row: 1/ 4;
     gap: 6vh;
     width: 900px;
     height: 500px;
     margin: auto;
     overflow: hidden;
     text-align: center;
-    margin-top: 10vh;
-    margin-bottom: 30vh;
+    margin-top: 30vh;
+    margin-bottom: 10vh;
 }
 
 .slider h2{
-    margin-bottom: 4vh;
+    margin-bottom: 5vh;
 }
 
 .slider .list{
