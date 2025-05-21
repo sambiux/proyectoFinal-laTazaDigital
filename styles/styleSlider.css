@@ -67,11 +67,6 @@
     cursor: pointer;
 }
 
-.slider .list button:hover{
-    box-shadow: 3px 3px 3px;
-    background-color: rgb(245, 206, 221);
-    opacity: 0.5;
-}
 
 .slider .buttons{
     position: absolute;
@@ -82,14 +77,6 @@
     justify-content: space-between;
 }
 
-.slider .buttons button{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    color: #000000;
-    border: 2px solid black;
-    cursor: pointer;
-}
 .slider .dots{
     position: absolute;
     bottom: 10px;
