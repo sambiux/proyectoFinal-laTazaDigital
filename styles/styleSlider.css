@@ -43,7 +43,8 @@
 
 .slider .list p{
     position: relative;
-    right: 6%;
+    right: 10%;
+    margin-right: 70px;
     top: 5%;
     width: 350px;
     float: right;
